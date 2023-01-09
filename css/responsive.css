@@ -1,0 +1,118 @@
+
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+
+    #header{
+        background-image: url(../images/phone-background.png);
+    }
+    .header-text{
+        margin-top: 90%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    nav img{
+        /* height: 22px; */
+        width: 10px;
+    }
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 150px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    nav ul li a:hover{
+        color:#fff;
+    }
+    nav ul li a::after{
+        background:#fff;
+        transition: 0.5s;
+    }
+    nav ul li a:hover::after{
+        width: 100%;
+    }
+
+/*                 about         */
+.sub-titel{
+    text-align: center;
+    font: size 80px;
+    font-weight: 600;
+    padding-bottom: 10px;
+
+}
+    .about-col-1 , .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+        align-items: center;
+    }
+    .sub-titel-pragraph{
+        font-size: 16px;
+        text-align:;
+    }
+
+    /*        service        */
+    .service-title{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .col-sm-12{
+        padding-bottom: 10px;
+    }
+    /*            contract         */
+    .socail-icone{
+        margin-top: 170px;
+    }
+
+    .message{
+        margin-top: -319px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+   
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {
+
+ }
+A
